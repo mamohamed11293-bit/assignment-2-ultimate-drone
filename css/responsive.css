@@ -1,0 +1,151 @@
+
+/* ==== Navbar Responsive Styles ====  */
+
+@media screen and (max-width: 1024px) {
+    .nav-right-side {
+        
+        display: none;
+    }
+}
+
+
+/* ==== Header Responsive Styles ====  */
+
+@media screen and (max-width: 1024px) {
+    .header .container {
+        
+        flex-direction: column;
+    }
+    .header .left-side-header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header .right-side-header {
+        width: 100%;
+    }
+}
+
+/* ==== Features Responsive Styles ====  */
+
+@media screen and (max-width: 640px) {
+    .features .feature-items .item {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+ 
+    .features .feature-items .item {
+        width: 50%;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ==== Perspective Responsive Styles ====  */
+
+@media screen and (max-width: 768px) {
+    .features .perspective {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .features .perspective .perspective-left {
+        width: 100%;
+    }
+    .features .perspective .perspective-right {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .features .perspective .perspective-left {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 981px) {
+    .features .perspective .perspective-left {
+        width: 70%;
+    }
+}
+
+/* ==== Rating Responsive Styles ====  */
+
+@media screen and (max-width: 1024px) {
+
+    .rating .rating-items {
+        flex-direction: column;
+    }
+
+    .rating .rating-left-side {
+        width: 100%;
+        position: static;
+        margin-bottom: 40px;
+    }
+
+    .rating .rating-right-side {
+    width: 100%; 
+    }
+
+    .rating .rating-left-side .percentage-rate .rate-item div{
+    width: 740px;
+    }
+}
+
+/* ==== Products Responsive Styles ====  */
+
+@media screen and (max-width: 767px) {
+
+    .products .products-items {
+        flex-direction: column;
+    }
+
+    .products .products-items .item {
+    width: 100%;
+    }
+    .products .products-items .item .img-item {
+        height: 192px;
+        overflow: hidden;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     .products .products-items .item {
+        width: 50%;
+    }
+}
+
+/* ==== Footer Responsive Styles ====  */
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+
+    }
+    .footer .footer-items {
+        flex-direction: column;
+    }
+    .footer .footer-items .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer .footer-items .footer-links .inner {
+    padding-left: 0;
+    }
+    .footer .payment-sec {
+        flex-direction: column;
+    }
+    .footer .payment-sec p {
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer .footer-items .item {
+        width: 50%;
+    }
+    .footer .footer-items .footer-links .inner {
+    padding-left: 0;
+    }
+} 
